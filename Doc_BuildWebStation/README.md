@@ -187,6 +187,7 @@
     $ chmod -R 777 /bootstrap/cache/
     ```
 #### 05.Set Root URL
+-    
     ```sh{.line-numbers}
     $ nano /etc/apache2/sites-available/000-default.conf
     ```
