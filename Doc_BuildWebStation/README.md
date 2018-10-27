@@ -220,12 +220,12 @@ $ /etc/init.d/apache2 restart
 ```
 > Tips:
 > There was an example
-> `$ git clone https://github.com/ORZaaa/TestWebStation.git blog`
-> `$ cp .env.example .env`
-> `$ php artisan key:generate`
-> `$ php artisan migrate`
-> `$ composer dump-autoload`
-> `$ npm run watch-poll`
+> - `$ git clone https://github.com/ORZaaa/TestWebStation.git blog`
+> - `$ cp .env.example .env`
+> - `$ php artisan key:generate`
+> - `$ php artisan migrate`
+> - `$ composer dump-autoload`
+> - `$ npm run watch-poll`
 
 #### Step 8 - Voyager :   
 - Install Voyager
