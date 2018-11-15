@@ -1,4 +1,4 @@
-# Build Webstation
+# Build Webstation: NO.1 Build Server system
 That's a document about how to build WebStation with Ubuntu and Laravel.
 Use VM 15 pro.
 ---
@@ -165,6 +165,7 @@ Set
     DB_DATABASE=homestead
     DB_USERNAME=homestead
     DB_PASSWORD=secret
+    
     MAIL_DRIVER=smtp
     MAIL_HOST=smtp.mailtrap.io
     MAIL_PORT=2525
@@ -184,8 +185,8 @@ set to
 ```
 #### 04.Change files permission
 ```sh{.line-numbers}
-$ chmod -R 777 /storage
-$ chmod -R 777 /bootstrap/cache/
+$ chmod -R 777 storage/
+$ chmod -R 777 bootstrap/cache/
 ```
 #### 05.Set Root URL
 -    
