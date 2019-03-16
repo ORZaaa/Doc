@@ -83,8 +83,26 @@ password = **********************
 > Tips:
 > Login phpmyadmin by "debian-sys-maint"
 > Change MySQL User permissions(change localhost@root and add %@SQLAdmin)
-- Change Apache AllowOverride
+
+Find
 ```sh
+$ /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+```sh
+$ bind-address  = 127.0.0.1
+```
+to
+```sh
+#bind-address  = 127.0.0.1
+```
+or
+```sh
+bind-address  = 0.0.0.0
+```
+
+
+- Change Apache AllowOverride
+```
 $ nano /etc/apache2/apache2.conf
 ```
 Find
